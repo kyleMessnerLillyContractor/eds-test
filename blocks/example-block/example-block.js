@@ -1,4 +1,6 @@
 export default async function decorate(block) {
-  console.log('huh?', block);
+  window.addEventListener('load', () => {
+      console.log('huh?', block);
+  });
   block.innerHTML = 'hello world';
 }
