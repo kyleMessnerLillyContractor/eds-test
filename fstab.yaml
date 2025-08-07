@@ -2,3 +2,6 @@ mountpoints:
   /:
     url: https://content.da.live/kyleMessnerLillyContractor/eds-test/
     type: markup
+blocks:
+  example-block:
+    path: blocks/example-block/example-block.js
